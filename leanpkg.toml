@@ -1,0 +1,8 @@
+[package]
+name = "libcommon"
+version = "0.1"
+lean_version = "khoek/klean:3.4.4"
+path = "src"
+
+[dependencies]
+mathlib = {git = "https://github.com/leanprover/mathlib", rev = "de8985c958f376ef2f85616d5d8e2dd11d77187d"}
